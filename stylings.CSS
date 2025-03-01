@@ -23,6 +23,8 @@ h2 {
     margin-top: 20px;
 }
 
+
+
 /* Introduction Section */
 p {
     font-size: 18px;
@@ -139,4 +141,26 @@ a:hover {
     p, h1, h2, ul {
         text-align: center;
     }
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Button Styling */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
 }
