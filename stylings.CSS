@@ -149,18 +149,18 @@ a:hover {
     color: #ffffff;
 }
 
-/* Button Styling */
-button {
-    background-color: #007BFF;
-    color: white;
+/* Toggle Button Styles */
+#theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    background: none;
     border: none;
-    padding: 10px 15px;
-    font-size: 14px;
     cursor: pointer;
-    border-radius: 5px;
-    margin-top: 10px;
+    transition: transform 0.3s ease-in-out;
 }
 
-button:hover {
-    background-color: #0056b3;
+#theme-toggle:hover {
+    transform: scale(1.2);
 }
